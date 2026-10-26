@@ -1,0 +1,10 @@
+{
+  "name": "ledcalle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reserva de publicidad en pantallas LED: demo web (Vercel) y plugin de WordPress",
+  "scripts": {
+    "start": "npx serve public",
+    "plugin:zip": "sh scripts/build-plugin.sh"
+  }
+}
